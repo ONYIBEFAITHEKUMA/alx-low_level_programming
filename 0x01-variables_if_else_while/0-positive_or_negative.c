@@ -1,34 +1,30 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
-/* headers goes there */
+#include <time.h>
+#include <stdio.h>
 
-/* betty style doc files  function goes there */
 /**
- * main - Entery point
- *
- * Return: Always 0(suceess)
- *
+ * main - This program assigned a random number to the variable n
+ * Return: Always 0
  */
 int main(void)
 {
-         int n;
+	int n;
 
-
-	 srand(time(0));
-	 n = rand() - RAND_MAX / 2;
-	 /* your code goes in here*/
-	 if (n > 0);
-	 {
-		 printf("%\d is positive\n", n);
-	 }
-	else if (n < 0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n > 0)
 	{
-		printf("%\d is negative\n", n);
+		printf("%d is %s\n", n, "positive");
+	}
+	else if (n < 0)
+	{
+		printf("%d is %s\n", n, "negative");
 	}
 	else
-	{       
-		printf("%\d is zero\n"' n);
+	{
+		printf("%d is %s\n", n, "zero");
 	}
 	return (0);
 }
+
