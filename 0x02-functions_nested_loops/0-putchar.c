@@ -1,4 +1,4 @@
-#include <stdio.h>>
+#include <main.h>>
 /**
  *  main - Entry point
  *
@@ -7,7 +7,7 @@
 int main(void)
 {
 	/* C program to demonstrate putchar() method */
-	char fa = "faith";
+	char fa = "1";
 	/* character to stdout */
 	while (fa)
 	{
@@ -15,5 +15,6 @@ int main(void)
 		fa++;
 	}
 	_putchar('\n');
+
 		return (0);
 }
