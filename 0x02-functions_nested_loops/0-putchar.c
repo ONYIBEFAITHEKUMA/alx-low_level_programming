@@ -1,20 +1,21 @@
-#include <main.h>>
-/**
- *  main - Entry point
- *
- *  Return: Always 0(success)
- */
-int main(void)
-{
-	/* C program to demonstrate putchar() method */
-	char fa = "1";
-	/* character to stdout */
-	while (fa)
-	{
-		_putchar(fa);
-		fa++;
-	}
-	_putchar('\n');
+#include "main.h"
 
-		return (0);
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
+
+int main(void)
+
+{
+	putchar('');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
