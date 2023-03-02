@@ -16,7 +16,7 @@ void print_number(int n)
 	else if (n > 0)
 		n *= -1;
 	else
-		putchar('-');
+		_putchar('-');
 	for (count = 0; count < 10; count++, y /= 10)
 	{
 		if (n / y == 0)
@@ -26,7 +26,7 @@ void print_number(int n)
 			k = (-(n / y) % 10);
 			if (k < 0)
 				k *= -1;
-			putchar(k + '0');
+			_putchar(k + '0');
 		}
 	}
 }
