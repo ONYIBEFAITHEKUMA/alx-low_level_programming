@@ -1,19 +1,18 @@
 #include "main.h"
 /**
- * _puts - print a string
- * @str: string
+ * _puts - functions to be checked
+ *
+ * @str: Always 0 (success)
  */
 
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-
-	while (str[i] != '\0')
+	while (str[i])
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
