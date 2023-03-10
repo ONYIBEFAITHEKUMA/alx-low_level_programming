@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * _puts - functions to be checked
+ * _puts - Entry point
  *
- * @str: Always 0 (success)
+ * @str: input value
+ *
+ * Return: Always 0 (success)
  */
 
 void _puts(char *str)
