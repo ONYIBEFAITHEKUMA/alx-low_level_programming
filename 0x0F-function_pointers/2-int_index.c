@@ -1,5 +1,3 @@
-#include "function_pointers.h"
-#include <stdlib.h>
 
 /**
  * int_index - functions that seraches for an array
