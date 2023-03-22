@@ -9,6 +9,8 @@
  * @size: is the number of elements in the array
  *
  * @cmp: pointers to function used to compare values
+ *
+ * Return: -1 if no element matches, -1 if soze is <= 0.
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -36,5 +38,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 			}
 		}
 	}
-	return (res);	
+	return (res);
 }
